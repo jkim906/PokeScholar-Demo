@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Collection Component sorts by type and then by name when types are equal 1`] = `
+[
+  {
+    "_id": "1",
+    "collectedAt": "2024-03-10T00:00:00.000Z",
+    "copies": 2,
+    "large": "pikachu-large.jpg",
+    "name": "Pikachu",
+    "rarity": "Common",
+    "small": "pikachu-small.jpg",
+    "types": [
+      "Electric",
+    ],
+  },
+  {
+    "_id": "4",
+    "collectedAt": "2024-03-12T00:00:00.000Z",
+    "copies": 1,
+    "large": "squirtle-large.jpg",
+    "name": "Squirtle",
+    "rarity": "Common",
+    "small": "squirtle-small.jpg",
+    "types": [
+      "Electric",
+    ],
+  },
+  {
+    "_id": "2",
+    "collectedAt": "2024-03-09T00:00:00.000Z",
+    "copies": 1,
+    "large": "charizard-large.jpg",
+    "name": "Charizard",
+    "rarity": "Rare",
+    "small": "charizard-small.jpg",
+    "types": [
+      "Fire",
+    ],
+  },
+  {
+    "_id": "3",
+    "collectedAt": "2024-03-11T00:00:00.000Z",
+    "copies": 3,
+    "large": "bulbasaur-large.jpg",
+    "name": "Bulbasaur",
+    "rarity": "Common",
+    "small": "bulbasaur-small.jpg",
+    "types": [
+      "Grass",
+    ],
+  },
+]
+`;
